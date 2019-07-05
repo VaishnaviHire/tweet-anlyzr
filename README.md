@@ -7,10 +7,12 @@ This tool gives a business owner / domain enthusiast a holistic knowledge on cha
 
 
 
-<h4>Running The App Locally:
+<h4>Running The App Locally:</h4>
 
 1. Download and Install Python 3.7 [Link](https://www.python.org/downloads/)
 2. Import Data given in backend submission to Mysql. 
+3. Create config.py file with database config and  `api_key`,`api_secret_key`,`api_access_token`
+`api_access_token_secret` keys.
 3. Change config as per your requirement in `config.py` file.
 4. Go to folder TwitterDataAnalysis
 5. Install other  `pip install -r requirements.txt`
