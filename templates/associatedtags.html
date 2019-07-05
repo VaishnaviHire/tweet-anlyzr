@@ -1,0 +1,28 @@
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<div class="container">
+    <div>
+        <nav class="navbar navbar-primary">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">TweetAnalyzer</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="javascript:history.back()">Back</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+ {% for your_list_element in tags_list %}
+     <div>
+   <h4> {{ your_list_element }}</h4>
+     </div>
+  {% endfor %}
+</div>
