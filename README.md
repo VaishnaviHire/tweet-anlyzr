@@ -1,4 +1,4 @@
-<h2>Tweet Analyzer
+<h2>Tweet Analyzer</h2>
 
 Tweet Analyzer is an analytics tool which captures domain specific trends on twitter.
 This tool can be used to get latest updates on a domain, what type of users are active in that domain(target users),
