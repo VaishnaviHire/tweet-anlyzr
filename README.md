@@ -17,3 +17,5 @@ This tool gives a business owner / domain enthusiast a holistic knowledge on cha
 4. Go to folder TwitterDataAnalysis
 5. Install other  `pip install -r requirements.txt`
 6. Run following command : `run flask`
+
+[<h4>Presentation Link</h4>](https://docs.google.com/presentation/d/1hXyVhiGnmNsW6DHurg_xyu5opn1ZKmX1-lPLj0Y0zy8/edit?usp=sharing)
